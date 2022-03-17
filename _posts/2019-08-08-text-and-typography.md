@@ -6,8 +6,8 @@ categories: [Blogging, Demo]
 tags: [typography]
 math: true
 mermaid: true
-image:
-path: /commons/devices-mockup.png
+image: https://raw.githubusercontent.com/cotes2020/chirpy-images/main/commons/avatar.jpg
+path: https://raw.githubusercontent.com/cotes2020/chirpy-images/main/commons/avatar.jpg
 width: 800
 height: 500
 ---
