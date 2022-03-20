@@ -236,6 +236,8 @@ peerEurekaNodes 代表了 eureka server 集群中的其他节点，使用到了 
 在 eureka server 启动的时候， 创建了 eureka client 用于获取获取其他 eureka server 中的信息和将自身注册到其他的 eureka server 中。
 创建了注册表 registry 用于存储服务实例。创建了定时任务，用于集群间的有清除缓存任务、发送心跳任务、更新集群节点任务。用于处理客户端的更新心跳阈值定时任务。
 
+![eureka server启动主要流程](/assets/img/2022-03-19-eureka-server-init/eureka server启动主要流程.png)
+
 还有两个概念需要注意。Applications 代表了注册到 eureka server 中的所有服务，Application 代表的是某一个服务，InstanceInfo 代表的是
 某一个服务下的一个实例节点。还有就是 eureka client 中用来 http 通讯的 EurekaHttpClient，使用了装饰器模式，对 jersey 进行了各种装饰。
 有指标统计、重试、重定向、定时重建session这四个。
