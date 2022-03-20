@@ -123,6 +123,7 @@ ConfigurationManager 中获取配置信息。
 5. 从其他 eureka server 中拉取注册表
 6. 初始化定时任务，这里有三个任务，缓存刷新任务，定时心跳任务。使用 scheduler调度心跳和缓存刷新的定时任务的定时执行，
 用各自的executor用于执行任务。并且会向其他 eureka server 进行注册
+
 ```java
     try {
         // default size of 2 - 1 each for heartbeat and cacheRefresh
