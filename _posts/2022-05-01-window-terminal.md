@@ -46,6 +46,7 @@ end
 连接堡垒机有点特殊，不知为何用 powershell 使用 ssh 连接堡垒机，就会报错。
 ![](/assets/img/2022-05-01-window-terminal/d4c2d726.png){: width="800" height="500" .left}
 
+
 所以使用了 Git Bash 连接堡垒机。或许以后 powershell 就可以了，就不用这么麻烦了。使用 gitbash 连接堡垒机命令如下
 > D:\programefile\Git\bin\bash.exe -c "ssh 188xxx260@139.xxx.xxx.2 -p60022"
 
