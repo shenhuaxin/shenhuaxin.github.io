@@ -53,3 +53,7 @@ end
 windows terminal 和 lua脚本如下所示：
 ![](/assets/img/2022-05-01-window-terminal/80efe94f.png){: width="800" height="500" .left}
 ![](/assets/img/2022-05-01-window-terminal/15822b72.png){: width="800" height="500" .left}
+
+
+## 参考
+1. [go expect](https://github.com/hymkor/expect)
